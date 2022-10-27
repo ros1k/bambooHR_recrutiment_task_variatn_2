@@ -18,6 +18,6 @@
 
 
 <!--<script src="<?php /*echo get_site_url(); */?>/wp-content/themes/alphasoft/assets/js/parallax.min.js"></script>-->
-<script src="<?php echo get_site_url(); ?>/wp-content/themes/recruitmentTheme/assets/js/app.js"></script>
+<!-- <script src="<?php /*echo get_site_url(); */?>/wp-content/themes/recruitmentTheme/assets/js/app.js"></script> -->
 
 </html>

@@ -46,7 +46,7 @@ export const copy = () => {
         .pipe(dest('dist'));
 }
 export const scripts = () => {
-    return src(['assets/js/app.js'])
+    return src(['assets/js/app.js','assets/js/custom-slider.js'])
         .pipe(named())
         .pipe(webpack({
             module: {
