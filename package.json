@@ -1,0 +1,39 @@
+{
+  "name": "bamboo",
+  "version": "1.2.1",
+  "description": "bamboo recruitment task",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "author": "bamboo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "autoprefixer": "^9.8.8",
+    "babel-loader": "^8.2.5",
+    "browser-sync": "^2.27.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^4.1.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-wp-pot": "^2.5.0",
+    "gulp-zip": "^5.1.0",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^15.4.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.1"
+  }
+}

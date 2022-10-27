@@ -1,0 +1,7 @@
+@media screen and (min-width: 1200px){
+  .container{
+    &.stretched{
+      max-width: 1440px;
+    }
+  }
+}

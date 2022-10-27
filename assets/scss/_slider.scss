@@ -1,0 +1,71 @@
+.gutenberg-slider{
+    max-width: 100%;
+    padding: 50px 60px;
+    position:relative;
+    @media screen and (max-width: 578px){
+        padding: 30px 25px;
+     }
+    .title{
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        @media screen and (max-width: 578px){
+            font-size:32px;
+         }
+    }
+    .text{
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        @media screen and (max-width: 578px){
+            font-size:16px;
+         }
+    }
+
+    &__arrow{
+        background-color:rgba(255,255,255,0.06);
+        border-radius:50%;
+        width:50px;
+        height:50px;
+        border:none;
+        top:calc(50% - 25px);
+        position: absolute;
+        z-index: 10;
+        &--left{
+            left:-50px;
+         img{
+            height:25px;
+            transform:rotate(180deg) translateX(1px);
+         }
+         @media screen and (max-width: 578px){
+            left:-38px;
+         }
+        }
+        &--right{
+           
+            right:-50px;
+            img{
+                height:25px;
+                transform:translateX(2px);
+             }
+             @media screen and (max-width: 578px){
+                right:-38px;
+             }
+        } 
+     }
+    &__wrapper{
+        max-width: 100%;
+        margin-top:50px;
+   
+        
+        
+    }
+
+    
+   }
+
+.slick-arrow::before{
+    display:none;
+}
